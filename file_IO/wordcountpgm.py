@@ -7,7 +7,7 @@ for lines in f:
     # print(words)
     # break
 #o/p:list=['Luminar', 'Technolab', '-', 'ISO', '9001:2015', 'Certified', 'Institution', '-', 'Software', 'Training', 'Institute.']
-    for word in words:#cyclone
+    for word in words:
          if word not in dict:
              dict[word]=1
          else:

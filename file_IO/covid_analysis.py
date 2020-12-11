@@ -13,9 +13,9 @@ for lines in f:
         dict[state] =confirmed_cases
 for k,v in dict.items():
     print(k,v)
-highest=max(dict,dict[highest])
-print(highest,dict[highest])
-lowest=min(dict,dict[lowest])
-print(lowest,dict[lowest])
-srt=sorted(dict,key=dict.get,reverse=true)
-print("sorted",srt)
+# highest=max(dict,dict[highest])
+# print(highest,dict[highest])
+# lowest=min(dict,dict[lowest])
+# print(lowest,dict[lowest])
+# srt=sorted(dict,key=dict.get,reverse=true)
+# print("sorted",srt)8

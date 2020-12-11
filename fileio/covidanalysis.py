@@ -1,3 +1,4 @@
+f=open("complete.csv")
 dict={}
 for lines in f:
     data=lines.rstrip("\n").split(",")
